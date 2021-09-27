@@ -18,4 +18,4 @@ for i in f:
     data = i
     print(data)
     producer.send('streams-plaintext-input', value=data)
-    #sleep(1)
+    sleep(1)
